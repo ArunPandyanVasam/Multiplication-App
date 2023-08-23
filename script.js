@@ -16,7 +16,6 @@ let correctAns = generateQuestion();
 
 formEl.addEventListener("submit", (event) => { 
     event.preventDefault(); // Prevent the form from submitting and refreshing the page
-
     const userAns = parseInt(inputEl.value);
     if (userAns === correctAns) { 
         score++;
