@@ -1,0 +1,1 @@
+const num1 = parseInt(Math.random() * 10);
