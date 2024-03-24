@@ -1,10 +1,10 @@
 body {
     margin: 0px;
-    display: flex; /* items in a row*/
-    justify-content: center; /* row*/
+    display: flex; 
+    justify-content: center; 
     height: 100vh;
-    align-items: center; /* column*/
-    text-align: center;  /* left center right*/
+    align-items: center; 
+    text-align: center;  
     background-color: rgb(107, 121, 32);
     font-family: sans-serif;
 }
@@ -18,9 +18,9 @@ body {
 }
 
 .input {
-    display: block; /* Pairing as blocks*/
+    display: block; 
     width: 100%;
-    box-sizing: border-box; /* Specifies width and height*/
+    box-sizing: border-box; 
     font-size: 25px;
     text-align: center;
     padding: 10px;
